@@ -1,7 +1,5 @@
-344ee
-
-tetet
-et
-egeg
-d
-fgd
+apt update
+apt upgrade
+apt install subversion openssh sshpass wget linux-util
+cd /sdcard/android/data/com.termux
+mkdir www
