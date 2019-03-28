@@ -3,3 +3,5 @@ apt upgrade
 apt install subversion openssh sshpass wget linux-util
 cd /sdcard/android/data/com.termux
 mkdir www
+cd www
+svn checkout --username 'bhu-punjab' --password 'bhu-punjab@123' http://ega-svn.punjab.gov.pk:8080/svn/PHP/BHU-LHV  
