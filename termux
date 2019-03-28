@@ -5,3 +5,15 @@ cd /sdcard/android/data/com.termux
 mkdir www
 cd www
 svn checkout --username 'bhu-punjab' --password 'bhu-punjab@123' http://ega-svn.punjab.gov.pk:8080/svn/PHP/BHU-LHV  
+cd
+
+mkdir -p ~/.termux/boot
+cd .termux/boot
+touch start.sh
+chmod u+x start.sh
+
+cd
+cd .ssh
+touch backup.sh
+chmod u+x backup.sh
+
